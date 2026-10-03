@@ -1,0 +1,16 @@
+import numpy as np
+
+def transform_matrix(A: list[list[int|float]], T: list[list[int|float]], S: list[list[int|float]]) -> list[list[int|float]]:
+	A = np.array(A)
+	T = np.array(T)
+	S = np.array(S)
+	if np.linalg.det(T) == 0:
+		return -1
+	if np.linalg.det(S) == 0:
+		return -1	
+	T_inv = np.linalg.inv(T)
+	try :
+		transformed_matrix = T_inv @ A @ S
+		return transformed_matrix
+	except:
+		return -1
