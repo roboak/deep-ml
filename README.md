@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**14** solved · 14 problems · 0 labs · 0 math
+**15** solved · 15 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -26,6 +26,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement Self-Attention Mechanism](https://www.deep-ml.com/problems/53) | medium | 2026-10-05 | [solution](problems/0053-implement-self-attention-mechanism) |
 | [Implementing Basic Autograd Operations](https://www.deep-ml.com/problems/26) | medium | 2026-11-19 | [solution](problems/0026-implementing-basic-autograd-operations) |
 | [Matrix Transformation ](https://www.deep-ml.com/problems/7) | medium | 2026-10-03 | [solution](problems/0007-matrix-transformation) |
+| [The Pattern Weaver's Code](https://www.deep-ml.com/problems/89) | medium | 2026-11-19 | [solution](problems/0089-the-pattern-weaver-s-code) |
 
 ---
 
